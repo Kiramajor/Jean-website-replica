@@ -1,0 +1,189 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:serif;
+}
+.all{
+	display:flex;
+	gap:50px;
+}
+/*Side-bar*/
+.side{
+	padding:10px;
+}
+.nlinks{
+	list-style-type:none;
+	margin-top:20px;
+	
+}
+.nlinks a{
+	text-decoration:none;
+	color:grey;
+	
+}
+.jeans{
+	color:grey;
+	
+}
+.nav-links{
+	margin-top:100px;
+}
+.nav-links a{
+	text-decoration:none;
+	color:black;
+}
+.nav-bar h1{
+	font-family:sans-serif;
+}
+
+/*Home*/
+ .header {
+	background-color:black;
+	color:white;
+	padding:	10px;
+	border:1px solid black;
+	width:90vw;
+	display: flex;
+	justify-content:space-between;
+	position:fixed;
+}
+.menu{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	width:50px;
+}
+.menu p{
+	background-color:white;
+	flex: 1 1 5px;
+	height:2px;
+}
+.showcase .sc{
+	padding:30px;
+	border:1px hidden black;
+	font-size:30px;
+	margin-top:60px;
+}
+.top{
+	height:40vh;
+	border: 1px hidden black;
+	width:90vw; 
+	padding:5px;
+	margin:auto;
+	margin-bottom:10px;
+	background-size: cover;
+	background-image:url("Images/back.jpeg");
+	background-repeat:no-repeat;
+}
+.top .container p{
+	color:white;
+	padding:10px;
+	font-size:70px;
+}
+.top .container{
+	margin-top:100px;
+	margin-left:30px;
+}
+.top .container h4{
+	border:1px hidden black;
+	text-align:center;
+	background-color:black;
+	color:white;
+	cursor:pointer;
+	padding:10px;
+	width:150px;
+	font-size:20px;
+}
+/*Showcase*/
+.wrap{
+	position:relative;
+}
+.showcase .wrap p{
+	border:1px hidden black;
+	padding:5px;
+	position:absolute;
+	top:350px;
+}
+.showcase .boxes{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	margin-top:50px;
+	background-color:rgba(128,128,128,0.1);
+}
+.showcase .boxes box-1{
+	border:1px solid black;
+}
+span{
+	border:1px solid black;
+	background-color:black;
+	padding:2px;
+	color:white;
+	width:40px;
+	position:absolute;
+	top:-316px;
+}
+.showcase .boxes .box-2{
+	position:relative;
+}
+.showcase .boxes .box-7{
+	position:relative;
+}
+/*Middle*/
+.middle{
+	background-color:black;
+	color:white;
+	width:105vw;
+	padding:10px;
+}
+.middle input{
+	width:80%;
+	padding:5px;
+	margin-top:10px;
+}
+.middle button{
+	background-color:red;
+	color:white;
+	padding:8px;
+	margin:10px;
+	border:1px hidden red;
+}
+/*Down*/
+.down{
+	display:flex;
+	justify-content:space-evenly;
+	background-color:rgba(128,128,128,0.1);
+	width:105vw;
+	padding:10px;
+	color
+}
+.down ul{
+	list-style-type:none;
+}
+.down a{
+	color:black;
+}
+.down button{
+	background-color:black;
+	color:white;
+	padding:3px;
+	border:1px solid black;
+	width:50%;
+}
+.down input{
+	margin-bottom:5px;
+	padding:5px;
+}
+/* Footer */
+.footer{
+	background-color:black;
+	color:white;
+	padding:10px;
+	width:105vw;
+	text-align:center;
+}
+.footer a{
+	color:white;
+}
+/* Links */
